@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="owaspSecurityShepherd:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>owaspSecurityShepherd</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="owaspSecurityShepherd.war">
+      <element id="artifact" artifact-name="owaspSecurityShepherd:war exploded" />
+    </root>
+  </artifact>
+</component>
